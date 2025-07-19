@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/Sirius_rover_new.glb",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/(.*\\.(glb|gltf))",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
