@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/(.*\\.(glb|gltf))",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    }
+  ]
+}
