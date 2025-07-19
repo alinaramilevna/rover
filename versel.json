@@ -1,5 +1,13 @@
 {
+  "version": 2,
   "headers": [
+    {
+      // Убедитесь, что здесь путь совпадает с тем, как вы к нему обращаетесь
+      "source": "/Sirius_rover_new.glb",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
     {
       "source": "/(.*\\.(glb|gltf))",
       "headers": [
